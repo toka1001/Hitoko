@@ -1,0 +1,23 @@
+
+  <section class="main-header">
+    <img src="<%= asset_path "hitoko.png" %>">
+  </section>
+  <section class="function container-fluid">
+    <div class="row">
+    <h2>Function</h2>
+      <div class="function-images">
+        <div class="col-md-6 col-sm-6">
+          <div class="function-image">
+            <img src="<%= asset_path "comment.png" %>">
+            <p><%= link_to 'ヒトコト一覧', words_path %></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="function-image">
+            <img src="<%= asset_path "mails.png" %>">
+            <p>お問い合わせ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
